@@ -1,0 +1,33 @@
+{
+  "name": "healthpoint",
+  "version": "1.0.0",
+  "description": "Easily expose your http server's health.",
+  "main": "index.js",
+  "dependencies": {
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "servertest": "^1.2.1",
+    "standard": "^8.6.0",
+    "tape": "~2.3.2"
+  },
+  "keywords": [
+    "health",
+    "check",
+    "http",
+    "uptime"
+  ],
+  "scripts": {
+    "test": "node test.js && standard"
+  },
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidguttman/healthpoint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidguttman/healthpoint/issues"
+  },
+  "homepage": "https://github.com/davidguttman/healthpoint#readme"
+}
